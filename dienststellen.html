@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dienststellen - LAPD</title>
+    <title>Dienststellen & Standorte - Los Angeles Police Department</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="announcement-bar"><p><strong>NOTRUF: 911</strong></p></div>
+
+    <div class="announcement-bar">
+        <p><strong>NOTRUF: 911</strong> | Standorte und Erreichbarkeiten</p>
+    </div>
+
     <header class="main-header">
         <div class="header-container">
             <img src="lapd-logo.png" alt="LAPD Emblem" class="logo">
-            <div class="header-text"><h1>LOS ANGELES POLICE DEPARTMENT</h1><p class="motto">Büros und Spezialabteilungen</p></div>
+            <div class="header-text">
+                <h1>LOS ANGELES POLICE DEPARTMENT</h1>
+                <p class="motto">Lokal verankert, professionell agierend</p>
+            </div>
         </div>
     </header>
+
     <nav class="navbar">
         <ul>
             <li><a href="index.html">Startseite</a></li>
@@ -23,29 +31,75 @@
             <li><a href="presse.html">Presseportal</a></li>
         </ul>
     </nav>
+
     <main class="content-container">
+        
         <section class="main-content">
-            <h2>Struktur des Departments</h2>
+            <h2>Unser Standort (Revierhauptwache)</h2>
             <hr>
+            <div class="news-card" style="border-bottom: 3px solid #cfb997; background-color: #fafbfc; padding: 15px; border-radius: 4px;">
+                <h3>Central Bureau – Division Headquarters</h3>
+                <p class="date" style="color: #0b1d33; font-weight: bold;">📍 217 Venice Blvd, Los Angeles, CA 90015</p>
+                <p>Dieses Hauptquartier koordiniert die polizeiliche Präsenz, die Kriminalitätsbekämpfung und die bürgernahen Dienste im zugewiesenen Sektor. Die Wache ist 24 Stunden am Tag für Publikumsverkehr und Notfallanzeigen geöffnet.</p>
+            </div>
+
+            <br>
+            <h2>Spezialisierte Abteilungen (Bureaus)</h2>
+            <hr>
+            <p>Über das lokale Revier hinaus greift die Dienststelle auf die zentralisierten, hochspezialisierten Ressourcen des gesamten Departments zurück:</p>
+            
+            <br>
             <div class="news-card">
                 <h3>Counter-Terrorism and Special Operations Bureau</h3>
-                <p>Heimat der weltberühmten <strong>S.W.A.T.</strong>-Einheit, der K9-Hundeführer sowie der Air Support Division (Hubschrauberstaffel).</p>
+                <p>Verantwortlich für die Abwehr von Großgefahrenlagen. Hierzu gehören:</p>
+                <ul style="margin-left: 20px; margin-top: 5px;">
+                    <li><strong>Metropolitan Division:</strong> Heimat der taktischen Zugriffsteams (SWAT) sowie der K9-Hundeführerstaffel.</li>
+                    <li><strong>Air Support Division:</strong> Die Hubschrauberstaffel zur Luftaufklärung und Verfolgungsunterstützung.</li>
+                </ul>
             </div>
+
             <div class="news-card">
                 <h3>Detective Bureau</h3>
-                <p>Verantwortlich für die Ermittlung schwerer Straftaten, organisiert in Divisionen wie Raub/Mord (Robbery-Homicide) und Rauschgiftkriminalität.</p>
+                <p>Zuständig für die tiefgehende Ermittlung und Aufklärung von Kriminalität, aufgeteilt in spezialisierte Unterabteilungen:</p>
+                <ul style="margin-left: 20px; margin-top: 5px;">
+                    <li>Robbery-Homicide Division (RHD) – Raub und Tötungsdelikte</li>
+                    <li>Gang and Narcotics Division (GND) – Bandenkriminalität und Rauschgift</li>
+                    <li>Commercial Crimes Division – Wirtschafts- und Organisierte Kriminalität</li>
+                </ul>
+            </div>
+
+            <div class="news-card">
+                <h3>Transit Services Bureau</h3>
+                <p>Gewährleistet die Sicherheit im gesamten öffentlichen Personennahverkehr (Bus- und Schienennetz) der Metropolregion Los Angeles.</p>
             </div>
         </section>
+
         <aside class="sidebar">
-            <h3>Geografische Bureau-Einteilung</h3>
+            <h3>Wachen-Kontaktdaten</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 15px;">Für administrative Anfragen oder nicht-akute Meldungen:</p>
+            
+            <div class="wichtig-box" style="margin-bottom: 20px;">
+                <h4>Zentrale Venice Blvd</h4>
+                <p style="margin-top: 5px;"><strong>Telefon:</strong> 1-877-ASK-LAPD<br>
+                <strong>Betriebszeit:</strong> 24/7/365<br>
+                <strong>Leitung:</strong> Capt. Ethan Walker</p>
+            </div>
+
+            <h3>Geografische Bureaus</h3>
+            <p style="font-size: 0.85rem; color: #4a5568; margin-bottom: 10px;">Das LAPD unterteilt das Stadtgebiet in vier operative Zonen:</p>
             <ul>
-                <li>Central Bureau</li>
-                <li>South Bureau</li>
+                <li><strong>Central Bureau</strong> (Unser Standort)</li>
                 <li>West Bureau</li>
+                <li>South Bureau</li>
                 <li>Valley Bureau</li>
             </ul>
         </aside>
+
     </main>
-    <footer class="main-footer"><p>&copy; 2026 City of Los Angeles / LAPD.</p></footer>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 City of Los Angeles / Los Angeles Police Department. Alle Rechte vorbehalten.</p>
+    </footer>
+
 </body>
 </html>
